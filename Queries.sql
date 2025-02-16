@@ -107,6 +107,3 @@ UPDATE Ticket SET Price = 300 WHERE Class = 'Level 1';
 UPDATE Ticket SET Seat_number = 5 WHERE ID = 2;
 DELETE FROM Ticket WHERE ID = 2;
 SELECT * FROM Ticket;
-
--- Uncomment the following line if you want to drop the database
--- DROP DATABASE Online_railway_reservation;
